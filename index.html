@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<title>Devine</title>
 		<meta name="description" content="Devine le nombre">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
 	</head>
 	<body>
 		<h1>Devine le nombre </h1>
@@ -14,6 +17,11 @@
 			<label for="essai">Le nombre choisi est: </label>
 			<input type="text" id="essai">
 			<button>Soumettre</button>
+
+			<div id="message">
+				<p id="resultat"></p>
+				<div id="essais"></div>
+			</div>
 		</div>
 		<div class="nombres">
 			<div id="1" class="nombre">001</div>
